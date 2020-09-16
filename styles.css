@@ -1,0 +1,217 @@
+/*Globales*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFFFFF;
+}
+
+body{ 
+    width: 100%;
+    height: 100%;
+    color: #585858;
+}
+
+h1 {
+    font-size: 75px;
+    background-color: #ffc6b2;
+     
+}
+
+h5 {
+    font-size: 25px;
+    font-weight: 500;
+    background-color: #ffc6b2;
+ 
+}
+
+.span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.text-style {
+    padding: 20px 0;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* fin globales*/ 
+
+/* encabezado*/ 
+
+#contenedor-header {
+    display: grid; 
+    grid-template-columns: 25% 75%;
+    height: 300px;
+}
+
+.imagen {
+    background-image: url(images/icono.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.titulo {
+    padding: 40px;
+    margin: 43px 0;
+    background-color:  #ffc6b2;
+
+}
+
+/* fin encabezado*/
+
+main {
+    display: grid; 
+    grid-template-columns: 25% 75%;
+    height: 900px;
+
+}
+
+/* contenedor izquierdo */
+
+#contenedor-izquierdo {
+    display: block;
+    padding: 0 20px 0 20px;
+    background-color: #ffc6b2;
+    text-align: right;
+    
+}
+
+#contenedor-izquierdo h5 {
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom-style: solid;
+    border-color: #585858;
+
+}
+
+/* contacto */ 
+
+.contacto {
+    display: flex;
+    height: 193px;
+    font-size: 18px; 
+    padding: 20px 0;    
+}
+
+.datos {
+    margin-left: 25px;
+}
+
+.datos a {
+    text-decoration: none;
+    color: #585858;
+}
+
+.datos a:hover {
+    color: #FFFFFF;
+}
+
+.iconos {
+    display: block;
+    width: 50px;
+    margin-left: 20px;
+    
+}
+.iconos img {
+    height: 23px;
+
+}
+
+/* fin contacto*/
+
+/* educacion */
+
+.educacion {
+    height: 600px;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.edu-info {
+   text-align: right;
+}
+
+.edu-info1 {
+   padding: 25px 0;
+}
+
+.edu-info2 {
+   padding: 25px 0;
+}
+
+/* fin educacion*/ 
+
+/* skills */ 
+
+.skills2 {
+    height: 320px;
+    line-height: 2;
+}
+
+
+.skills li {
+    list-style: none;
+}
+
+/* fin contenedor izquierdo */
+
+/* contenedor derecho */
+
+#contenedor-derecho {
+    padding: 0 20px;
+}
+
+.profile {
+    height: 213px;
+}
+
+.profile h5 {
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom-style: solid;
+    border-color: #585858;
+    background-color: #FFFFFF;
+}
+
+/* exp laboral */ 
+
+.text-style h5 {
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom-style: solid;
+    border-color: #585858;
+    background-color: #FFFFFF;
+ }
+ 
+ .experiencias {
+    padding: 25px 0;
+    line-height: 1.5;
+}
+
+.exp {
+    margin-bottom: 30px;
+}
+
+.exp p {
+    padding: 10px 0;
+}
+
+.lista {
+    padding: 10px 80px;
+}
+
+
+/* fin contenedor derecho  */
+
+
